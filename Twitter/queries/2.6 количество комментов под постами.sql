@@ -1,0 +1,1 @@
+select content, comments from posts order by comments asc;

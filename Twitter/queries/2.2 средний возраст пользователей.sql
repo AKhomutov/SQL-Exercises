@@ -1,0 +1,1 @@
+select avg(age) as AveregeAge from users;

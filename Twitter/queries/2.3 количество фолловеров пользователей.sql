@@ -1,0 +1,1 @@
+select followers, name from users order by followers;

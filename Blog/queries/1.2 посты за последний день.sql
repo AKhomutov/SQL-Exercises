@@ -1,0 +1,1 @@
+select count(*) from posts where date = "2017-01-25";

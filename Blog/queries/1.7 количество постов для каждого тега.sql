@@ -1,0 +1,1 @@
+select tag_name, count(body) from tags join binder on binder.tags_id=tags.id join posts on binder.posts_id=posts.id group by tag_name;

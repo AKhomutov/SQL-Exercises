@@ -1,0 +1,1 @@
+select title, tag_name from posts join binder on binder.posts_id=posts.id join tags on binder.tags_id=tags.id order by title;
