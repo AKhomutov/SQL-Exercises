@@ -1,1 +1,3 @@
-select name from users where followers != 0;
+select id, name from users
+inner join followers on followers.user_id = users.id
+group by id;

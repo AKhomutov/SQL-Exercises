@@ -1,1 +1,2 @@
-select * from posts where body like 'S%';
+select * from posts 
+where title like 'S%';

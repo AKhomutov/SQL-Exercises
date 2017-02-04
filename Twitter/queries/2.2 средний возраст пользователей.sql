@@ -1,1 +1,1 @@
-select avg(age) as AveregeAge from users;
+select avg(age) as 'Averege age of all Twitter users' from users;
